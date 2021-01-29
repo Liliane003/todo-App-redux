@@ -9,12 +9,12 @@ import store from './redux/store'
 function App() {
   return (
     <Provider store={store}>
-    <div className="App">
-      <h1>TODO Managers</h1>
+    <center><div className="App">
+      <h1>welcome Todo App</h1>
       <AddTodo/>
       <TodoList/>
       <VisibilityFilter/>
-    </div>
+    </div></center>
     </Provider>
   );
 }
